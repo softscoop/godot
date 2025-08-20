@@ -5,6 +5,7 @@ var score
 
 func _ready() -> void:
 	new_game()
+	#pass
 
 func game_over() -> void:
 	$ScoreTimer.stop()
